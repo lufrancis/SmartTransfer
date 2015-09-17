@@ -1,0 +1,6 @@
+framework module Pods_SmartTransfer {
+  umbrella header "Pods-SmartTransfer-umbrella.h"
+
+  export *
+  module * { export * }
+}
