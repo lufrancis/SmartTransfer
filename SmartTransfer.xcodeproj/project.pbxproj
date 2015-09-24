@@ -43,6 +43,8 @@
 		1597D4D71B7FD5B300D4A186 /* DepositViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597D4D61B7FD5B300D4A186 /* DepositViewController.swift */; };
 		1597D4D91B82399800D4A186 /* DepositCompleteViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597D4D81B82399800D4A186 /* DepositCompleteViewController.swift */; };
 		1597D4DB1B84A2E300D4A186 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1597D4DA1B84A2E300D4A186 /* LogViewController.swift */; };
+		15C8C3481BADCC7E00D55CF0 /* TLogTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C8C3471BADCC7E00D55CF0 /* TLogTableViewCell.swift */; };
+		15C8C34A1BB417CE00D55CF0 /* MainTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15C8C3491BB417CE00D55CF0 /* MainTabBarViewController.swift */; };
 		15E0AAAD1B67CA2200FB3309 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E0AAAC1B67CA2200FB3309 /* AppDelegate.swift */; };
 		15E0AAAF1B67CA2200FB3309 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 15E0AAAE1B67CA2200FB3309 /* ViewController.swift */; };
 		15E0AAB21B67CA2200FB3309 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 15E0AAB01B67CA2200FB3309 /* Main.storyboard */; };
@@ -117,6 +119,8 @@
 		1597D4D61B7FD5B300D4A186 /* DepositViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositViewController.swift; sourceTree = "<group>"; };
 		1597D4D81B82399800D4A186 /* DepositCompleteViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DepositCompleteViewController.swift; sourceTree = "<group>"; };
 		1597D4DA1B84A2E300D4A186 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		15C8C3471BADCC7E00D55CF0 /* TLogTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TLogTableViewCell.swift; sourceTree = "<group>"; };
+		15C8C3491BB417CE00D55CF0 /* MainTabBarViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarViewController.swift; sourceTree = "<group>"; };
 		15E0AAA71B67CA2200FB3309 /* SmartTransfer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SmartTransfer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		15E0AAAB1B67CA2200FB3309 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		15E0AAAC1B67CA2200FB3309 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -230,6 +234,7 @@
 				15E0AAAC1B67CA2200FB3309 /* AppDelegate.swift */,
 				15E0AAAE1B67CA2200FB3309 /* ViewController.swift */,
 				15E0AAB01B67CA2200FB3309 /* Main.storyboard */,
+				15C8C3491BB417CE00D55CF0 /* MainTabBarViewController.swift */,
 				1597D4DA1B84A2E300D4A186 /* LogViewController.swift */,
 				1597D4D81B82399800D4A186 /* DepositCompleteViewController.swift */,
 				1597D4D61B7FD5B300D4A186 /* DepositViewController.swift */,
@@ -248,6 +253,7 @@
 				15E0AAF41B6C9AFD00FB3309 /* Contacts.swift */,
 				15E0AAF21B6C8D6400FB3309 /* ContactDetailsViewController.swift */,
 				15E0AACC1B67D3B200FB3309 /* ContactsTableViewController.swift */,
+				15C8C3471BADCC7E00D55CF0 /* TLogTableViewCell.swift */,
 				15E0AAB31B67CA2200FB3309 /* Images.xcassets */,
 				15E0AAB51B67CA2200FB3309 /* LaunchScreen.xib */,
 				1508C56D1B8B2CA000CE2C4E /* Images-2.xcassets */,
@@ -482,11 +488,13 @@
 				1597D4B61B7B854B00D4A186 /* ContactDetailTableViewCell.swift in Sources */,
 				1597D4BE1B7CE53800D4A186 /* PayViewController.swift in Sources */,
 				15E0AAAF1B67CA2200FB3309 /* ViewController.swift in Sources */,
+				15C8C3481BADCC7E00D55CF0 /* TLogTableViewCell.swift in Sources */,
 				1597D4D51B7FC51800D4A186 /* EnterPasscodeViewController.swift in Sources */,
 				1597D4D11B7E61A000D4A186 /* SettingViewController.swift in Sources */,
 				15E0AAAD1B67CA2200FB3309 /* AppDelegate.swift in Sources */,
 				1597D4241B76737100D4A186 /* RegisterViewController.swift in Sources */,
 				15E0AAFB1B6D272B00FB3309 /* SendViewController.swift in Sources */,
+				15C8C34A1BB417CE00D55CF0 /* MainTabBarViewController.swift in Sources */,
 				1597D4C01B7CE55200D4A186 /* ConfirmPayViewController.swift in Sources */,
 				1597D4D71B7FD5B300D4A186 /* DepositViewController.swift in Sources */,
 				1597D4B81B7CD76000D4A186 /* ConfirmViewController.swift in Sources */,

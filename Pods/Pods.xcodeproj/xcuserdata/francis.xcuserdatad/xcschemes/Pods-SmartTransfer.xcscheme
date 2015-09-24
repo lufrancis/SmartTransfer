@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "B5B176590931F5B797043C57"
+               BlueprintIdentifier = "A4C1E249C78897F685FD2E1E"
                BuildableName = "Pods_SmartTransfer.framework"
                BlueprintName = "Pods-SmartTransfer"
                ReferencedContainer = "container:Pods.xcodeproj">

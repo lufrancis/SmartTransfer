@@ -7,6 +7,7 @@ use_frameworks!
 target 'SmartTransfer' do
 pod 'MBProgressHUD', '~> 0.9'
 pod 'ActionSheetPicker-3.0'
+pod 'SWTableViewCell', '~> 0.3.7'
 end
 
 target 'SmartTransferTests' do

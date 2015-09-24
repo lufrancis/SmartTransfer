@@ -1,13 +1,16 @@
 PODS:
   - ActionSheetPicker-3.0 (2.0.1)
   - MBProgressHUD (0.9.1)
+  - SWTableViewCell (0.3.7)
 
 DEPENDENCIES:
   - ActionSheetPicker-3.0
   - MBProgressHUD (~> 0.9)
+  - SWTableViewCell (~> 0.3.7)
 
 SPEC CHECKSUMS:
   ActionSheetPicker-3.0: eeb47e64b7af3e09a50e1ce5dfee9c8c957490c6
   MBProgressHUD: c47f2c166c126cf2ce36498d80f33e754d4e93ad
+  SWTableViewCell: 2a94aadc9d47b2b611fa064566bf57948b95b579
 
 COCOAPODS: 0.38.2

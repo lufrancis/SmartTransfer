@@ -7,144 +7,214 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04040FCD76CBD08E9815583B1D3C761E /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D9BF07626448F1C9357057135AE56018 /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0B8A60918E784704DB8F075C5D6E51F1 /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 43A9F0628E04495444F935AF07A9EC26 /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		0C3A35F317A058D0C392AF7BFDFFD526 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 344923DF18186F8FBD9B694CC2E8AAE6 /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		0DC6AAB4BB109ECC8CED5D700A1737E7 /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 93EB0A83BD78BC9438BDCF7499301A8F /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		195B75F302F0861668A64C543BF78610 /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B626A6977F39B67E3BD714CC3E8D2886 /* ActionSheetMultipleStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		1C3B3CF27C991F527379F05398E902BA /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 71794DB600032D17D69483457FD9ABBA /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		2084EC3B7D82184FC5D9F04823A61C63 /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = D0762D185B4BE8D0DEE844C6A15DD951 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		47F5CCF61D9A008834DC343952751131 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 4CDCAA375F0C23457F6300168FECD240 /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4DD866EF4FED4F75F449B11CB733D682 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 6FE7BE087250CC0C61ACB3D5A07AAF20 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50313461A32C9057B726BE1BF0101B6F /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EE3E3135A39670252AEEF25AB892CAA /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		50B1836527735056EEEE40CFF846E0BE /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 42D5B31E31A4FDCF51E73C6629B05BAD /* MBProgressHUD-dummy.m */; };
-		648C77BE58C5B62A7CA02C012E911394 /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = DB07A01CFD1C81176A73A030817FB324 /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		675985F4483426BD5628158A95CCE5E3 /* Pods-SmartTransfer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = FE97D39D18DC4062A6B89ED7F14AE0F3 /* Pods-SmartTransfer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		6771FAC3AD86E6A54ADB7A2EE895A061 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 8BDCEF6CEC8D9C64FD7C845AC9042B08 /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		6ECB5387EFC66FC5CA734E8752BF19EC /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F2D91669ABA089586844355A7CE903B /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		7DA42BCDC6A68B64AF494A1219D36055 /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6D818B70659C23D975DE3016C513D8DD /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		83B2E6A4AC68F3CA4E3383F6672D7EA9 /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CF73861032AC74A2D04F4A10646ABFBC /* ActionSheetPicker-3.0-dummy.m */; };
-		95C56BFEE45E065C32F7A40137BB3730 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FDB023D59CC75CA861A5FF82561724 /* Foundation.framework */; };
-		A282742145B027D117171E272336D750 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 72CEB42B3EBC5553DE0122C271BEDC8D /* CoreGraphics.framework */; };
-		A34EE8034E7A8C571589583C58E38CD0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FDB023D59CC75CA861A5FF82561724 /* Foundation.framework */; };
-		A8E118950B2F2BAC09E30A605D3FB961 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 447AC57A7E6A6C99B4696B477BFB49B3 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		AAA058C8CEF4A556CC0C9F474013DC01 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9FDB023D59CC75CA861A5FF82561724 /* Foundation.framework */; };
-		AFF6F871B545A6D49247056473113549 /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 2C29BAFC558DAC74F83D47CAF51C3229 /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		B44E3383E2C0F0D021335E07EFB7615A /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B89E2E9F330B0AF974164331BF6DAA /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		C48200379E04F53EF0738481DA61A694 /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C68F5DE65335B4D009493BFBBF0E8A01 /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C6298EC2A84A203BDA8BEDE6FC062525 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 96D332CAB217F8C9A17692A2AFF1106D /* UIKit.framework */; };
-		D10B903F03DB5E238FC41A22F203142D /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = F05AC7F796F1751759409B9C3DFA5962 /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
-		D820E2EC7DE9FD3C78238B69C38B1066 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFF7A38F111ECB57342412A80B222836 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E32CA22DD121867908511863C2AE563C /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 91905ABE791F344B3582472D239FB68A /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		E3AA0E940F360AEAF43440807ECE6C59 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DE9F19F17628134620A67B3CBDFD712 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		EA30F2726EC02F6106864E382CFC3587 /* Pods-SmartTransfer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BC767F5B1BB3F6847AAEECC805CC8B93 /* Pods-SmartTransfer-dummy.m */; };
-		EA5C587B399141E0F5ED323D4953D9C6 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 5922421F1DC475D807FE9D20FBA93A7E /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F8B8A5FADD031AE7F75CFD5CE1C61174 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A4F75CE575B4733F4148DDAB014E966D /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		00C4473CD06A8F770479BE89E6EDAF33 /* SWUtilityButtonView.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8B696DF382DC304CBA822AD6A77D3A /* SWUtilityButtonView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		03EAF1D983A87E6BBED67E26467C77CD /* ActionSheetDatePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 524524CE43CC5732D5F19AB28BB8EA41 /* ActionSheetDatePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C1ADB1F958672503EFB85EB476537BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 927D233EC150AC966DD66B55C6359790 /* UIKit.framework */; };
+		0E36FC019856F907B5BB3B4FACEC75F4 /* SWTableViewCell-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7EE56A40B3F5E9D7CE1831E5EC63EA20 /* SWTableViewCell-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0E6AFD62239AAC8D489890911A92D916 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE8B90483B4250F5349AB5E3EBD0219 /* Foundation.framework */; };
+		162995D4D67C776CD34C07C7A50C47FE /* SWTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = FF07A926A8CF38F875395D23918BCD8C /* SWTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B748F7260A1191E51BA3601D5348849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE8B90483B4250F5349AB5E3EBD0219 /* Foundation.framework */; };
+		2C1EE40AEC70D3FE8093FAB1288D9053 /* DistancePickerView.h in Headers */ = {isa = PBXBuildFile; fileRef = 81DE9C35AD7A5B481F1CF5321D7521CA /* DistancePickerView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		30168605952B2A213F3FEECC2D3DC6DC /* SWTableViewCell-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1059B69121CDF8CF969F8350573412C0 /* SWTableViewCell-dummy.m */; };
+		380FFC13A3B7C259DC05054C078AD475 /* NSMutableArray+SWUtilityButtons.h in Headers */ = {isa = PBXBuildFile; fileRef = 6CCBCA98DDA35F1CA8F91E23791EB09C /* NSMutableArray+SWUtilityButtons.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3D969A2B49B5113213CEE507C525049A /* ActionSheetMultipleStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFE32966797FAE6B73471DD5D117A20 /* ActionSheetMultipleStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		430D39288513FF5FF54ADF68DF9730F7 /* SWCellScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8F1DF575BBB7DF15DDB56F2CF883CC24 /* SWCellScrollView.m */; };
+		44D39D20EFC7F734DDEBE1955177DEB6 /* MBProgressHUD.h in Headers */ = {isa = PBXBuildFile; fileRef = C45FA2B10FDF134FDFE8FFB521463311 /* MBProgressHUD.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4CBD32DFD7B2E70C9A482EC8CD96A8DB /* ActionSheetLocalePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 41133369C428DBC88107AA9C97852F9E /* ActionSheetLocalePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		50C7917F38AB3C4D2AB879D6F2DE3FA7 /* ActionSheetPicker-3.0-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D0A45E6F56540F10F385FD3B447ADF78 /* ActionSheetPicker-3.0-dummy.m */; };
+		5A13FF54EBBBC26D226FDDE669271EA2 /* ActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DB9F6D538D23EBB831B629A0A375193 /* ActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5BB37EAA67EBAEA3D20D8908B496A5FA /* SWCellScrollView.h in Headers */ = {isa = PBXBuildFile; fileRef = 6BE2010865705C78012CE404C6B5E614 /* SWCellScrollView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5EEA2BFE71DA13908EB384F8046A51C4 /* SWActionSheet.m in Sources */ = {isa = PBXBuildFile; fileRef = EDABAC18ED28890CE57FA55130C9FE44 /* SWActionSheet.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6241DB3A0C833FDD1A69386F3ACDE0B5 /* ActionSheetDistancePicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 9BDECCB0D683F3EE908767EA6C1E485D /* ActionSheetDistancePicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		63799B97C6CD63205E77BEEF76A7D5FE /* ActionSheetMultipleStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 06D8ED6F22454F1A063F68AD505FE914 /* ActionSheetMultipleStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		6AC1D31DFA25176F6BDC6165F674ACAB /* ActionSheetCustomPickerDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 80F872E3C701BCC8B203461360731376 /* ActionSheetCustomPickerDelegate.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6CAEC381EDBB6160CF36C38FF3CC5003 /* ActionSheetStringPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = A1E8407F13CA495B32BD6BB8037FACF4 /* ActionSheetStringPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7695B00A06C242A12C45E6461F12A905 /* SWUtilityButtonTapGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A0CF3F72210524CA5A14FEB2717C42E /* SWUtilityButtonTapGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		774C7E4C97406D6C6D828A09D260C4F7 /* NSMutableArray+SWUtilityButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A96FDC0F1C66AD46B60B00EE1AECC7D /* NSMutableArray+SWUtilityButtons.m */; };
+		7846FF3DEDCF0EF8620140DB770E4E98 /* SWLongPressGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = 593F87EA202EFE1EE449E71F410D0787 /* SWLongPressGestureRecognizer.m */; };
+		78D820B19128E35B217C63DB7003596C /* SWUtilityButtonView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8228D54D0DE3CC13CE5E53F80CCF77CC /* SWUtilityButtonView.m */; };
+		7B146A0A5F40214A3E2921CB1D209832 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0A5164C77A93D9A847D1031647D418 /* CoreGraphics.framework */; };
+		7C2C9505FDB8E43028516B7D3D6D6543 /* SWLongPressGestureRecognizer.h in Headers */ = {isa = PBXBuildFile; fileRef = 1826C48C007E7FF86D8552301485E599 /* SWLongPressGestureRecognizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7DF45D2C704E3BDD985271819E7242E3 /* MBProgressHUD-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32DFCD87474BED57F714E6AF29ECC4B6 /* MBProgressHUD-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8FE9310F43376F563114BF2E7382877E /* SWTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A8AAADB6A340B1745FA05E89A4604AC5 /* SWTableViewCell.m */; };
+		9041FD52AE72EA6F5C85A0EA4DF494F5 /* Pods-SmartTransfer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9744EA246F685F5E2F7B7F41B968EAD3 /* Pods-SmartTransfer-dummy.m */; };
+		96B1CEFD82D9D7B311C377EA342F1782 /* ActionSheetDatePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B550E248FCCA8D4079A63F8719AE5661 /* ActionSheetDatePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		A5C9225F93AB179F50A9B9FB08F75819 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE8B90483B4250F5349AB5E3EBD0219 /* Foundation.framework */; };
+		AB7B610F03A16D9FDD2FBBDD8C3F1E17 /* SWActionSheet.h in Headers */ = {isa = PBXBuildFile; fileRef = 46F2EF78AA23AABEF02C28728949A14B /* SWActionSheet.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD8BBB817E3AA32AA606D3A719A1AAE8 /* ActionSheetCustomPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = F7014957B69623410434B1E7169BC220 /* ActionSheetCustomPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD99A79D500A6CFA384684AA5269D15C /* DistancePickerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 26CBF8DB79F4E0E53AB6F18C9BDD9EFF /* DistancePickerView.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		B77EBE201D94E464D8749C72563AF17E /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A53C81AF7AA47FEA11E33780FE256BE /* MBProgressHUD.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		CC25F9F92AC20157513EDD215BE9D08E /* MBProgressHUD-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FEBE2B08A83432E6665543B092D52BD /* MBProgressHUD-dummy.m */; };
+		CE45BADCEAA9959232FDA819857446C9 /* ActionSheetPicker-3.0-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0029BABB05D0D453A04620AC8458B2D7 /* ActionSheetPicker-3.0-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8328C31440F2755F499A0B59E60D5EF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0EE8B90483B4250F5349AB5E3EBD0219 /* Foundation.framework */; };
+		D9A525875117F09BEF29A7D3D2AD5A7B /* ActionSheetStringPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 86D95787F5AE142652ECFAE33F182851 /* ActionSheetStringPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DCE3FA2385DB597322DEF17335E57399 /* ActionSheetLocalePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = C11FE95534E77DF1B7402ED940827224 /* ActionSheetLocalePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DD6FB9A7E08E1B2BA9C28EB4F0BE7E29 /* AbstractActionSheetPicker.h in Headers */ = {isa = PBXBuildFile; fileRef = 71B6976D1810C27C8BBF9B942E4DE81C /* AbstractActionSheetPicker.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DE2F018C5D6695E65F0F0F778924E379 /* AbstractActionSheetPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = 2057A2AF31F68B88B09F1EF8A9C20EBA /* AbstractActionSheetPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		EEA6E022D1739ED2D1E6E8BD7091C6E1 /* ActionSheetDistancePicker.m in Sources */ = {isa = PBXBuildFile; fileRef = B745B143A4CDBC1D61C5F61809436A74 /* ActionSheetDistancePicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		F3DE6EC4511BB48FC82DB1FBE52339B3 /* SWUtilityButtonTapGestureRecognizer.m in Sources */ = {isa = PBXBuildFile; fileRef = AE72FEBCED06E4C973703DEDAE5E0D9E /* SWUtilityButtonTapGestureRecognizer.m */; };
+		F673FEF71BB8421D56F49FD196C60FBA /* Pods-SmartTransfer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F5EF5CD44364FB1CF9EFEEBB13C29925 /* Pods-SmartTransfer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA2BA69EBA8642368B08AB72385AECA2 /* ActionSheetCustomPicker.m in Sources */ = {isa = PBXBuildFile; fileRef = A9F442F85A9EDB4E6AFEE025185D3F68 /* ActionSheetCustomPicker.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		63C86F33BC73C04A90185614E4C4D735 /* PBXContainerItemProxy */ = {
+		3FCCB567D9A9CFD0E53717C1CF3F6ED2 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 254F5FEB9D13A7E1C193E0D6CA6E47E9;
+			remoteGlobalIDString = E15E29C42F06CD04767E0910FB2EC0A1;
 			remoteInfo = "ActionSheetPicker-3.0";
 		};
-		D335143385999EA2C45EAABE3C547BE2 /* PBXContainerItemProxy */ = {
+		B8869649C87F6C8B73EDD99F7A529D86 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 461357F82D2D97DE723C7AD5AD79E94A;
+			remoteGlobalIDString = 01EE377FD59CCC35DFC17443B64E7EF1;
 			remoteInfo = MBProgressHUD;
+		};
+		BBF43A4A5F48DD9A9783643C126B2ACE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B5539F4C229EB0A474296E0B36C5EEAE;
+			remoteInfo = SWTableViewCell;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		101324015CF0482AA9EA41EC4E59BDF2 /* Pods_SmartTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		15B442BAA45C8DF8C74D72FE68A1B491 /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		0029BABB05D0D453A04620AC8458B2D7 /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
+		06D8ED6F22454F1A063F68AD505FE914 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		0CC56686B5F78ACF9FABBC17DC54C162 /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
+		0E72664C465EEF92E0AFC41A36A1A0F6 /* SWTableViewCell-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "SWTableViewCell-Private.xcconfig"; sourceTree = "<group>"; };
+		0EE8B90483B4250F5349AB5E3EBD0219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		1059B69121CDF8CF969F8350573412C0 /* SWTableViewCell-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SWTableViewCell-dummy.m"; sourceTree = "<group>"; };
+		1826C48C007E7FF86D8552301485E599 /* SWLongPressGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWLongPressGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.h; sourceTree = "<group>"; };
+		19512C27DED09D5306DC61570CB91C6E /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
+		2057A2AF31F68B88B09F1EF8A9C20EBA /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
+		2515C621AA83753BE37C5ED4FD71F3FC /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionSheetPicker_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		256622F1F7D375F405D5D7099EE2CEC2 /* Pods_SmartTransfer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SmartTransfer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		26CBF8DB79F4E0E53AB6F18C9BDD9EFF /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
 		27340E236D52421F808E9BDC6089B2F3 /* Pods-SmartTransfer-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SmartTransfer-acknowledgements.markdown"; sourceTree = "<group>"; };
-		2C29BAFC558DAC74F83D47CAF51C3229 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
-		344923DF18186F8FBD9B694CC2E8AAE6 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		284CDB8608A9035A7377E98C27166745 /* ActionSheetPicker-3.0-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-prefix.pch"; sourceTree = "<group>"; };
+		32DFCD87474BED57F714E6AF29ECC4B6 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
 		36CFAC24D3AFF77961D5C0E0EC707578 /* Pods-SmartTransfer-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartTransfer-resources.sh"; sourceTree = "<group>"; };
-		42D5B31E31A4FDCF51E73C6629B05BAD /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
-		436E031F21E6C8A18841BB40C32CD6CD /* ActionSheetPicker-3.0-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0-Private.xcconfig"; sourceTree = "<group>"; };
-		43A9F0628E04495444F935AF07A9EC26 /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
-		447AC57A7E6A6C99B4696B477BFB49B3 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
-		466E6E590A53DA28479A4BF05BA792D1 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
-		4CDCAA375F0C23457F6300168FECD240 /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		3C9D438D3FD83841D6DD7816957B8BD2 /* SWTableViewCell-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-prefix.pch"; sourceTree = "<group>"; };
+		41133369C428DBC88107AA9C97852F9E /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
+		46F2EF78AA23AABEF02C28728949A14B /* SWActionSheet.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWActionSheet.h; path = Pickers/SWActionSheet.h; sourceTree = "<group>"; };
+		4884B1D1BA084FC0D8A4185FBCFD3E91 /* Pods-SmartTransfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTransfer.release.xcconfig"; sourceTree = "<group>"; };
 		4CF5E9E9C362227BBA2A816A953FE44C /* Pods-SmartTransfer-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SmartTransfer-frameworks.sh"; sourceTree = "<group>"; };
+		524524CE43CC5732D5F19AB28BB8EA41 /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
+		564CF652508F5BE9868B252D23E490F0 /* MBProgressHUD.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MBProgressHUD.modulemap; sourceTree = "<group>"; };
 		570F1F3712BD6D96792128CDC0B51793 /* Pods-SmartTransfer-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SmartTransfer-acknowledgements.plist"; sourceTree = "<group>"; };
-		5922421F1DC475D807FE9D20FBA93A7E /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
-		5DE9F19F17628134620A67B3CBDFD712 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
-		5E3FFB0CDA4C88C9F5CA7EB897DE6B1D /* MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
-		6D818B70659C23D975DE3016C513D8DD /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
-		6FE7BE087250CC0C61ACB3D5A07AAF20 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
-		71794DB600032D17D69483457FD9ABBA /* DistancePickerView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = DistancePickerView.m; path = Pickers/DistancePickerView.m; sourceTree = "<group>"; };
-		72CEB42B3EBC5553DE0122C271BEDC8D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
-		7860F09BABBCAC27D23E6149B64C7A67 /* Pods-SmartTransfer.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTransfer.release.xcconfig"; sourceTree = "<group>"; };
-		7F2D91669ABA089586844355A7CE903B /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		593F87EA202EFE1EE449E71F410D0787 /* SWLongPressGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWLongPressGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWLongPressGestureRecognizer.m; sourceTree = "<group>"; };
+		5A53C81AF7AA47FEA11E33780FE256BE /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+		66654CB11A39BD5586200EE365A734DC /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A0CF3F72210524CA5A14FEB2717C42E /* SWUtilityButtonTapGestureRecognizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonTapGestureRecognizer.h; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.h; sourceTree = "<group>"; };
+		6BE2010865705C78012CE404C6B5E614 /* SWCellScrollView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWCellScrollView.h; path = SWTableViewCell/PodFiles/SWCellScrollView.h; sourceTree = "<group>"; };
+		6CCBCA98DDA35F1CA8F91E23791EB09C /* NSMutableArray+SWUtilityButtons.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableArray+SWUtilityButtons.h"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.h"; sourceTree = "<group>"; };
+		71B6976D1810C27C8BBF9B942E4DE81C /* AbstractActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AbstractActionSheetPicker.h; path = Pickers/AbstractActionSheetPicker.h; sourceTree = "<group>"; };
+		7EE56A40B3F5E9D7CE1831E5EC63EA20 /* SWTableViewCell-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SWTableViewCell-umbrella.h"; sourceTree = "<group>"; };
+		7F0A5164C77A93D9A847D1031647D418 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/CoreGraphics.framework; sourceTree = DEVELOPER_DIR; };
+		7FEBE2B08A83432E6665543B092D52BD /* MBProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD-dummy.m"; sourceTree = "<group>"; };
+		80E22257B99739FBF352DE3289C9BFA7 /* Pods-SmartTransfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTransfer.debug.xcconfig"; sourceTree = "<group>"; };
+		80F872E3C701BCC8B203461360731376 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
+		81DE9C35AD7A5B481F1CF5321D7521CA /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
+		8228D54D0DE3CC13CE5E53F80CCF77CC /* SWUtilityButtonView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonView.m; path = SWTableViewCell/PodFiles/SWUtilityButtonView.m; sourceTree = "<group>"; };
+		86D95787F5AE142652ECFAE33F182851 /* ActionSheetStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetStringPicker.m; path = Pickers/ActionSheetStringPicker.m; sourceTree = "<group>"; };
 		8759950B316466FD339C747A1A00EA0F /* Pods-SmartTransfer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SmartTransfer.modulemap"; sourceTree = "<group>"; };
-		8BDCEF6CEC8D9C64FD7C845AC9042B08 /* AbstractActionSheetPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AbstractActionSheetPicker.m; path = Pickers/AbstractActionSheetPicker.m; sourceTree = "<group>"; };
-		8EE3E3135A39670252AEEF25AB892CAA /* ActionSheetPicker-3.0-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ActionSheetPicker-3.0-umbrella.h"; sourceTree = "<group>"; };
-		9119D4C737A4E7CFEB27CF0E03C3BED0 /* Pods-SmartTransfer.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SmartTransfer.debug.xcconfig"; sourceTree = "<group>"; };
-		91905ABE791F344B3582472D239FB68A /* ActionSheetDatePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDatePicker.h; path = Pickers/ActionSheetDatePicker.h; sourceTree = "<group>"; };
-		93EB0A83BD78BC9438BDCF7499301A8F /* DistancePickerView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = DistancePickerView.h; path = Pickers/DistancePickerView.h; sourceTree = "<group>"; };
-		96D332CAB217F8C9A17692A2AFF1106D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
-		9A02279557BF50E862A9BA7BC18462D2 /* MBProgressHUD.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MBProgressHUD.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		A4F75CE575B4733F4148DDAB014E966D /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
-		AFF7A38F111ECB57342412A80B222836 /* MBProgressHUD-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-umbrella.h"; sourceTree = "<group>"; };
-		B42A24B2702C8FF4A95E68193E4604CC /* MBProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		B4B89E2E9F330B0AF974164331BF6DAA /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
-		B626A6977F39B67E3BD714CC3E8D2886 /* ActionSheetMultipleStringPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetMultipleStringPicker.m; path = Pickers/ActionSheetMultipleStringPicker.m; sourceTree = "<group>"; };
+		8F1DF575BBB7DF15DDB56F2CF883CC24 /* SWCellScrollView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWCellScrollView.m; path = SWTableViewCell/PodFiles/SWCellScrollView.m; sourceTree = "<group>"; };
+		927D233EC150AC966DD66B55C6359790 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		94E6B09348770651A4A780BDC4AC8D92 /* SWTableViewCell.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SWTableViewCell.modulemap; sourceTree = "<group>"; };
+		9744EA246F685F5E2F7B7F41B968EAD3 /* Pods-SmartTransfer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartTransfer-dummy.m"; sourceTree = "<group>"; };
+		9A96FDC0F1C66AD46B60B00EE1AECC7D /* NSMutableArray+SWUtilityButtons.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableArray+SWUtilityButtons.m"; path = "SWTableViewCell/PodFiles/NSMutableArray+SWUtilityButtons.m"; sourceTree = "<group>"; };
+		9BDECCB0D683F3EE908767EA6C1E485D /* ActionSheetDistancePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetDistancePicker.h; path = Pickers/ActionSheetDistancePicker.h; sourceTree = "<group>"; };
+		9DB9F6D538D23EBB831B629A0A375193 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
+		A1E8407F13CA495B32BD6BB8037FACF4 /* ActionSheetStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetStringPicker.h; path = Pickers/ActionSheetStringPicker.h; sourceTree = "<group>"; };
+		A8AAADB6A340B1745FA05E89A4604AC5 /* SWTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWTableViewCell.m; path = SWTableViewCell/PodFiles/SWTableViewCell.m; sourceTree = "<group>"; };
+		A9F442F85A9EDB4E6AFEE025185D3F68 /* ActionSheetCustomPicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetCustomPicker.m; path = Pickers/ActionSheetCustomPicker.m; sourceTree = "<group>"; };
+		AB8B696DF382DC304CBA822AD6A77D3A /* SWUtilityButtonView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWUtilityButtonView.h; path = SWTableViewCell/PodFiles/SWUtilityButtonView.h; sourceTree = "<group>"; };
+		ADA6AE68D9F4CD93AB0A76A779C816DD /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
+		AE72FEBCED06E4C973703DEDAE5E0D9E /* SWUtilityButtonTapGestureRecognizer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWUtilityButtonTapGestureRecognizer.m; path = SWTableViewCell/PodFiles/SWUtilityButtonTapGestureRecognizer.m; sourceTree = "<group>"; };
+		B49C2135615F01E1DD24425D895D8559 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B550E248FCCA8D4079A63F8719AE5661 /* ActionSheetDatePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDatePicker.m; path = Pickers/ActionSheetDatePicker.m; sourceTree = "<group>"; };
+		B745B143A4CDBC1D61C5F61809436A74 /* ActionSheetDistancePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetDistancePicker.m; path = Pickers/ActionSheetDistancePicker.m; sourceTree = "<group>"; };
+		B829167F21C7BF28439EF81D83F1E92D /* SWTableViewCell.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SWTableViewCell.xcconfig; sourceTree = "<group>"; };
 		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		BC767F5B1BB3F6847AAEECC805CC8B93 /* Pods-SmartTransfer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SmartTransfer-dummy.m"; sourceTree = "<group>"; };
-		C2CADC26FEE5A3EC017C32087BA77F13 /* MBProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MBProgressHUD.xcconfig; sourceTree = "<group>"; };
-		C68F5DE65335B4D009493BFBBF0E8A01 /* ActionSheetCustomPickerDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPickerDelegate.h; path = Pickers/ActionSheetCustomPickerDelegate.h; sourceTree = "<group>"; };
-		C6C35BD5E5B05E381DF9ECA3FF239C62 /* ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
-		C9FDB023D59CC75CA861A5FF82561724 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		CF73861032AC74A2D04F4A10646ABFBC /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
-		D0762D185B4BE8D0DEE844C6A15DD951 /* ActionSheetPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetPicker.h; path = Pickers/ActionSheetPicker.h; sourceTree = "<group>"; };
-		D9BF07626448F1C9357057135AE56018 /* ActionSheetLocalePicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetLocalePicker.h; path = Pickers/ActionSheetLocalePicker.h; sourceTree = "<group>"; };
-		DB07A01CFD1C81176A73A030817FB324 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		BBFE32966797FAE6B73471DD5D117A20 /* ActionSheetMultipleStringPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetMultipleStringPicker.h; path = Pickers/ActionSheetMultipleStringPicker.h; sourceTree = "<group>"; };
+		BC83430B00514054CD0C899F71768A76 /* ActionSheetPicker-3.0-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0-Private.xcconfig"; sourceTree = "<group>"; };
+		C11FE95534E77DF1B7402ED940827224 /* ActionSheetLocalePicker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ActionSheetLocalePicker.m; path = Pickers/ActionSheetLocalePicker.m; sourceTree = "<group>"; };
+		C45FA2B10FDF134FDFE8FFB521463311 /* MBProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		C5336B67B9FE7B734B601F8FC78015F7 /* SWTableViewCell.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SWTableViewCell.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0A45E6F56540F10F385FD3B447ADF78 /* ActionSheetPicker-3.0-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ActionSheetPicker-3.0-dummy.m"; sourceTree = "<group>"; };
+		D7E5A3EF55F153A23237390788EE20F4 /* MBProgressHUD-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "MBProgressHUD-Private.xcconfig"; sourceTree = "<group>"; };
+		E02941205CA472560650C6BE8CA97E97 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E58CA85AFDA38863A6082BA8466B88B6 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		E5E16163F7AB414B69B095E8A9CBE908 /* ActionSheetPicker-3.0.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "ActionSheetPicker-3.0.modulemap"; sourceTree = "<group>"; };
-		EB5A81B252C5F931B8CEB9824A91EB7A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F05AC7F796F1751759409B9C3DFA5962 /* MBProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
-		F487C11E28AF4998B6B8CA8CF96B14DA /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F7338469AC55B08B4631471C560EDEE2 /* ActionSheetPicker_3_0.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ActionSheetPicker_3_0.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		FE97D39D18DC4062A6B89ED7F14AE0F3 /* Pods-SmartTransfer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartTransfer-umbrella.h"; sourceTree = "<group>"; };
+		EAAE82115338D7ED746162EA09D2D74E /* ActionSheetPicker-3.0.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "ActionSheetPicker-3.0.xcconfig"; sourceTree = "<group>"; };
+		EDABAC18ED28890CE57FA55130C9FE44 /* SWActionSheet.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SWActionSheet.m; path = Pickers/SWActionSheet.m; sourceTree = "<group>"; };
+		F5A4DAFE9C66874210CBD615906C0D9D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F5EF5CD44364FB1CF9EFEEBB13C29925 /* Pods-SmartTransfer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SmartTransfer-umbrella.h"; sourceTree = "<group>"; };
+		F7014957B69623410434B1E7169BC220 /* ActionSheetCustomPicker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ActionSheetCustomPicker.h; path = Pickers/ActionSheetCustomPicker.h; sourceTree = "<group>"; };
+		FF07A926A8CF38F875395D23918BCD8C /* SWTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SWTableViewCell.h; path = SWTableViewCell/PodFiles/SWTableViewCell.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		1CBCAE5876D1DD8CA2E7CEA18CB8FD20 /* Frameworks */ = {
+		01E15869EBF4EAB97734DC2F334F70D7 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A282742145B027D117171E272336D750 /* CoreGraphics.framework in Frameworks */,
-				95C56BFEE45E065C32F7A40137BB3730 /* Foundation.framework in Frameworks */,
+				1B748F7260A1191E51BA3601D5348849 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		236ACFFBA9D361A818EDA9672A65055D /* Frameworks */ = {
+		542BB1CB1DB0BF48A3CCA9B1C780F6EA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A34EE8034E7A8C571589583C58E38CD0 /* Foundation.framework in Frameworks */,
-				C6298EC2A84A203BDA8BEDE6FC062525 /* UIKit.framework in Frameworks */,
+				0E6AFD62239AAC8D489890911A92D916 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4BF36A60C1E7DC809A70DC6DE4F1AF4B /* Frameworks */ = {
+		A663C3010C8E7453AAE463DF164DC07C /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AAA058C8CEF4A556CC0C9F474013DC01 /* Foundation.framework in Frameworks */,
+				A5C9225F93AB179F50A9B9FB08F75819 /* Foundation.framework in Frameworks */,
+				0C1ADB1F958672503EFB85EB476537BE /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A995769A8E47F3C3F58D54B9598CB000 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7B146A0A5F40214A3E2921CB1D209832 /* CoreGraphics.framework in Frameworks */,
+				D8328C31440F2755F499A0B59E60D5EF /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0109C741E086A0927C4388332B8B3A12 /* SWTableViewCell */ = {
+			isa = PBXGroup;
+			children = (
+				6CCBCA98DDA35F1CA8F91E23791EB09C /* NSMutableArray+SWUtilityButtons.h */,
+				9A96FDC0F1C66AD46B60B00EE1AECC7D /* NSMutableArray+SWUtilityButtons.m */,
+				6BE2010865705C78012CE404C6B5E614 /* SWCellScrollView.h */,
+				8F1DF575BBB7DF15DDB56F2CF883CC24 /* SWCellScrollView.m */,
+				1826C48C007E7FF86D8552301485E599 /* SWLongPressGestureRecognizer.h */,
+				593F87EA202EFE1EE449E71F410D0787 /* SWLongPressGestureRecognizer.m */,
+				FF07A926A8CF38F875395D23918BCD8C /* SWTableViewCell.h */,
+				A8AAADB6A340B1745FA05E89A4604AC5 /* SWTableViewCell.m */,
+				6A0CF3F72210524CA5A14FEB2717C42E /* SWUtilityButtonTapGestureRecognizer.h */,
+				AE72FEBCED06E4C973703DEDAE5E0D9E /* SWUtilityButtonTapGestureRecognizer.m */,
+				AB8B696DF382DC304CBA822AD6A77D3A /* SWUtilityButtonView.h */,
+				8228D54D0DE3CC13CE5E53F80CCF77CC /* SWUtilityButtonView.m */,
+				7D5FF71CEAFCE85CE4C34ED349268A8F /* Support Files */,
+			);
+			path = SWTableViewCell;
+			sourceTree = "<group>";
+		};
 		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
@@ -153,76 +223,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		1445429EB5C03CB991CD58AE2902BD5A /* MBProgressHUD */ = {
-			isa = PBXGroup;
-			children = (
-				5DE9F19F17628134620A67B3CBDFD712 /* MBProgressHUD.h */,
-				F05AC7F796F1751759409B9C3DFA5962 /* MBProgressHUD.m */,
-				2DF7E0B6F715A5895D3B8C44FE6A4AB6 /* Support Files */,
-			);
-			path = MBProgressHUD;
-			sourceTree = "<group>";
-		};
-		2DF7E0B6F715A5895D3B8C44FE6A4AB6 /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				F487C11E28AF4998B6B8CA8CF96B14DA /* Info.plist */,
-				466E6E590A53DA28479A4BF05BA792D1 /* MBProgressHUD.modulemap */,
-				C2CADC26FEE5A3EC017C32087BA77F13 /* MBProgressHUD.xcconfig */,
-				5E3FFB0CDA4C88C9F5CA7EB897DE6B1D /* MBProgressHUD-Private.xcconfig */,
-				42D5B31E31A4FDCF51E73C6629B05BAD /* MBProgressHUD-dummy.m */,
-				B42A24B2702C8FF4A95E68193E4604CC /* MBProgressHUD-prefix.pch */,
-				AFF7A38F111ECB57342412A80B222836 /* MBProgressHUD-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/MBProgressHUD";
-			sourceTree = "<group>";
-		};
 		39CF33B2E976FD3E12A7D9F562B97919 /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				72CEB42B3EBC5553DE0122C271BEDC8D /* CoreGraphics.framework */,
-				C9FDB023D59CC75CA861A5FF82561724 /* Foundation.framework */,
-				96D332CAB217F8C9A17692A2AFF1106D /* UIKit.framework */,
+				7F0A5164C77A93D9A847D1031647D418 /* CoreGraphics.framework */,
+				0EE8B90483B4250F5349AB5E3EBD0219 /* Foundation.framework */,
+				927D233EC150AC966DD66B55C6359790 /* UIKit.framework */,
 			);
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		4E59EB94EEF8DCCA383D8886648B6854 /* ActionSheetPicker-3.0 */ = {
+		422F940F85FED28CD075F62F460FBC02 /* MBProgressHUD */ = {
 			isa = PBXGroup;
 			children = (
-				4CDCAA375F0C23457F6300168FECD240 /* AbstractActionSheetPicker.h */,
-				8BDCEF6CEC8D9C64FD7C845AC9042B08 /* AbstractActionSheetPicker.m */,
-				DB07A01CFD1C81176A73A030817FB324 /* ActionSheetCustomPicker.h */,
-				B4B89E2E9F330B0AF974164331BF6DAA /* ActionSheetCustomPicker.m */,
-				C68F5DE65335B4D009493BFBBF0E8A01 /* ActionSheetCustomPickerDelegate.h */,
-				91905ABE791F344B3582472D239FB68A /* ActionSheetDatePicker.h */,
-				A4F75CE575B4733F4148DDAB014E966D /* ActionSheetDatePicker.m */,
-				5922421F1DC475D807FE9D20FBA93A7E /* ActionSheetDistancePicker.h */,
-				447AC57A7E6A6C99B4696B477BFB49B3 /* ActionSheetDistancePicker.m */,
-				D9BF07626448F1C9357057135AE56018 /* ActionSheetLocalePicker.h */,
-				344923DF18186F8FBD9B694CC2E8AAE6 /* ActionSheetLocalePicker.m */,
-				2C29BAFC558DAC74F83D47CAF51C3229 /* ActionSheetMultipleStringPicker.h */,
-				B626A6977F39B67E3BD714CC3E8D2886 /* ActionSheetMultipleStringPicker.m */,
-				D0762D185B4BE8D0DEE844C6A15DD951 /* ActionSheetPicker.h */,
-				6FE7BE087250CC0C61ACB3D5A07AAF20 /* ActionSheetStringPicker.h */,
-				6D818B70659C23D975DE3016C513D8DD /* ActionSheetStringPicker.m */,
-				93EB0A83BD78BC9438BDCF7499301A8F /* DistancePickerView.h */,
-				71794DB600032D17D69483457FD9ABBA /* DistancePickerView.m */,
-				43A9F0628E04495444F935AF07A9EC26 /* SWActionSheet.h */,
-				7F2D91669ABA089586844355A7CE903B /* SWActionSheet.m */,
-				E382E53D611F008C2EEC24579CFEE4DF /* Support Files */,
+				C45FA2B10FDF134FDFE8FFB521463311 /* MBProgressHUD.h */,
+				5A53C81AF7AA47FEA11E33780FE256BE /* MBProgressHUD.m */,
+				8972101DBE120E253C0E2374DDABE6B1 /* Support Files */,
 			);
-			path = "ActionSheetPicker-3.0";
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
-		7A9028472BA4386E74E34B3D22272FB2 /* Pods */ = {
+		7BA2E5901A7BE68731D2178D3D2412FA /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				4E59EB94EEF8DCCA383D8886648B6854 /* ActionSheetPicker-3.0 */,
-				1445429EB5C03CB991CD58AE2902BD5A /* MBProgressHUD */,
+				7EF2ADD850298C2CDB2AFFBB72561738 /* ActionSheetPicker-3.0 */,
+				422F940F85FED28CD075F62F460FBC02 /* MBProgressHUD */,
+				0109C741E086A0927C4388332B8B3A12 /* SWTableViewCell */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		7D5FF71CEAFCE85CE4C34ED349268A8F /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F5A4DAFE9C66874210CBD615906C0D9D /* Info.plist */,
+				94E6B09348770651A4A780BDC4AC8D92 /* SWTableViewCell.modulemap */,
+				B829167F21C7BF28439EF81D83F1E92D /* SWTableViewCell.xcconfig */,
+				0E72664C465EEF92E0AFC41A36A1A0F6 /* SWTableViewCell-Private.xcconfig */,
+				1059B69121CDF8CF969F8350573412C0 /* SWTableViewCell-dummy.m */,
+				3C9D438D3FD83841D6DD7816957B8BD2 /* SWTableViewCell-prefix.pch */,
+				7EE56A40B3F5E9D7CE1831E5EC63EA20 /* SWTableViewCell-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SWTableViewCell";
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -230,10 +273,53 @@
 			children = (
 				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
 				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
-				7A9028472BA4386E74E34B3D22272FB2 /* Pods */,
+				7BA2E5901A7BE68731D2178D3D2412FA /* Pods */,
 				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
 				AFD0B6DBBAD954BBF3B14EBDAB715244 /* Targets Support Files */,
 			);
+			sourceTree = "<group>";
+		};
+		7EF2ADD850298C2CDB2AFFBB72561738 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXGroup;
+			children = (
+				71B6976D1810C27C8BBF9B942E4DE81C /* AbstractActionSheetPicker.h */,
+				2057A2AF31F68B88B09F1EF8A9C20EBA /* AbstractActionSheetPicker.m */,
+				F7014957B69623410434B1E7169BC220 /* ActionSheetCustomPicker.h */,
+				A9F442F85A9EDB4E6AFEE025185D3F68 /* ActionSheetCustomPicker.m */,
+				80F872E3C701BCC8B203461360731376 /* ActionSheetCustomPickerDelegate.h */,
+				524524CE43CC5732D5F19AB28BB8EA41 /* ActionSheetDatePicker.h */,
+				B550E248FCCA8D4079A63F8719AE5661 /* ActionSheetDatePicker.m */,
+				9BDECCB0D683F3EE908767EA6C1E485D /* ActionSheetDistancePicker.h */,
+				B745B143A4CDBC1D61C5F61809436A74 /* ActionSheetDistancePicker.m */,
+				41133369C428DBC88107AA9C97852F9E /* ActionSheetLocalePicker.h */,
+				C11FE95534E77DF1B7402ED940827224 /* ActionSheetLocalePicker.m */,
+				BBFE32966797FAE6B73471DD5D117A20 /* ActionSheetMultipleStringPicker.h */,
+				06D8ED6F22454F1A063F68AD505FE914 /* ActionSheetMultipleStringPicker.m */,
+				9DB9F6D538D23EBB831B629A0A375193 /* ActionSheetPicker.h */,
+				A1E8407F13CA495B32BD6BB8037FACF4 /* ActionSheetStringPicker.h */,
+				86D95787F5AE142652ECFAE33F182851 /* ActionSheetStringPicker.m */,
+				81DE9C35AD7A5B481F1CF5321D7521CA /* DistancePickerView.h */,
+				26CBF8DB79F4E0E53AB6F18C9BDD9EFF /* DistancePickerView.m */,
+				46F2EF78AA23AABEF02C28728949A14B /* SWActionSheet.h */,
+				EDABAC18ED28890CE57FA55130C9FE44 /* SWActionSheet.m */,
+				DCEBF3A4B3DE0E52333AE846EBC6FED5 /* Support Files */,
+			);
+			path = "ActionSheetPicker-3.0";
+			sourceTree = "<group>";
+		};
+		8972101DBE120E253C0E2374DDABE6B1 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E02941205CA472560650C6BE8CA97E97 /* Info.plist */,
+				564CF652508F5BE9868B252D23E490F0 /* MBProgressHUD.modulemap */,
+				ADA6AE68D9F4CD93AB0A76A779C816DD /* MBProgressHUD.xcconfig */,
+				D7E5A3EF55F153A23237390788EE20F4 /* MBProgressHUD-Private.xcconfig */,
+				7FEBE2B08A83432E6665543B092D52BD /* MBProgressHUD-dummy.m */,
+				0CC56686B5F78ACF9FABBC17DC54C162 /* MBProgressHUD-prefix.pch */,
+				32DFCD87474BED57F714E6AF29ECC4B6 /* MBProgressHUD-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MBProgressHUD";
 			sourceTree = "<group>";
 		};
 		AFD0B6DBBAD954BBF3B14EBDAB715244 /* Targets Support Files */ = {
@@ -247,9 +333,10 @@
 		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F7338469AC55B08B4631471C560EDEE2 /* ActionSheetPicker_3_0.framework */,
-				9A02279557BF50E862A9BA7BC18462D2 /* MBProgressHUD.framework */,
-				101324015CF0482AA9EA41EC4E59BDF2 /* Pods_SmartTransfer.framework */,
+				2515C621AA83753BE37C5ED4FD71F3FC /* ActionSheetPicker_3_0.framework */,
+				66654CB11A39BD5586200EE365A734DC /* MBProgressHUD.framework */,
+				256622F1F7D375F405D5D7099EE2CEC2 /* Pods_SmartTransfer.framework */,
+				C5336B67B9FE7B734B601F8FC78015F7 /* SWTableViewCell.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -261,27 +348,27 @@
 				8759950B316466FD339C747A1A00EA0F /* Pods-SmartTransfer.modulemap */,
 				27340E236D52421F808E9BDC6089B2F3 /* Pods-SmartTransfer-acknowledgements.markdown */,
 				570F1F3712BD6D96792128CDC0B51793 /* Pods-SmartTransfer-acknowledgements.plist */,
-				BC767F5B1BB3F6847AAEECC805CC8B93 /* Pods-SmartTransfer-dummy.m */,
+				9744EA246F685F5E2F7B7F41B968EAD3 /* Pods-SmartTransfer-dummy.m */,
 				4CF5E9E9C362227BBA2A816A953FE44C /* Pods-SmartTransfer-frameworks.sh */,
 				36CFAC24D3AFF77961D5C0E0EC707578 /* Pods-SmartTransfer-resources.sh */,
-				FE97D39D18DC4062A6B89ED7F14AE0F3 /* Pods-SmartTransfer-umbrella.h */,
-				9119D4C737A4E7CFEB27CF0E03C3BED0 /* Pods-SmartTransfer.debug.xcconfig */,
-				7860F09BABBCAC27D23E6149B64C7A67 /* Pods-SmartTransfer.release.xcconfig */,
+				F5EF5CD44364FB1CF9EFEEBB13C29925 /* Pods-SmartTransfer-umbrella.h */,
+				80E22257B99739FBF352DE3289C9BFA7 /* Pods-SmartTransfer.debug.xcconfig */,
+				4884B1D1BA084FC0D8A4185FBCFD3E91 /* Pods-SmartTransfer.release.xcconfig */,
 			);
 			name = "Pods-SmartTransfer";
 			path = "Target Support Files/Pods-SmartTransfer";
 			sourceTree = "<group>";
 		};
-		E382E53D611F008C2EEC24579CFEE4DF /* Support Files */ = {
+		DCEBF3A4B3DE0E52333AE846EBC6FED5 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				E5E16163F7AB414B69B095E8A9CBE908 /* ActionSheetPicker-3.0.modulemap */,
-				C6C35BD5E5B05E381DF9ECA3FF239C62 /* ActionSheetPicker-3.0.xcconfig */,
-				436E031F21E6C8A18841BB40C32CD6CD /* ActionSheetPicker-3.0-Private.xcconfig */,
-				CF73861032AC74A2D04F4A10646ABFBC /* ActionSheetPicker-3.0-dummy.m */,
-				15B442BAA45C8DF8C74D72FE68A1B491 /* ActionSheetPicker-3.0-prefix.pch */,
-				8EE3E3135A39670252AEEF25AB892CAA /* ActionSheetPicker-3.0-umbrella.h */,
-				EB5A81B252C5F931B8CEB9824A91EB7A /* Info.plist */,
+				19512C27DED09D5306DC61570CB91C6E /* ActionSheetPicker-3.0.modulemap */,
+				EAAE82115338D7ED746162EA09D2D74E /* ActionSheetPicker-3.0.xcconfig */,
+				BC83430B00514054CD0C899F71768A76 /* ActionSheetPicker-3.0-Private.xcconfig */,
+				D0A45E6F56540F10F385FD3B447ADF78 /* ActionSheetPicker-3.0-dummy.m */,
+				284CDB8608A9035A7377E98C27166745 /* ActionSheetPicker-3.0-prefix.pch */,
+				0029BABB05D0D453A04620AC8458B2D7 /* ActionSheetPicker-3.0-umbrella.h */,
+				B49C2135615F01E1DD24425D895D8559 /* Info.plist */,
 			);
 			name = "Support Files";
 			path = "../Target Support Files/ActionSheetPicker-3.0";
@@ -290,69 +377,66 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		1B037AF431C1D31B320564C91F5E3469 /* Headers */ = {
+		58C8030AD88D57BF6E5CA2D2E7A62015 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				47F5CCF61D9A008834DC343952751131 /* AbstractActionSheetPicker.h in Headers */,
-				648C77BE58C5B62A7CA02C012E911394 /* ActionSheetCustomPicker.h in Headers */,
-				C48200379E04F53EF0738481DA61A694 /* ActionSheetCustomPickerDelegate.h in Headers */,
-				E32CA22DD121867908511863C2AE563C /* ActionSheetDatePicker.h in Headers */,
-				EA5C587B399141E0F5ED323D4953D9C6 /* ActionSheetDistancePicker.h in Headers */,
-				04040FCD76CBD08E9815583B1D3C761E /* ActionSheetLocalePicker.h in Headers */,
-				AFF6F871B545A6D49247056473113549 /* ActionSheetMultipleStringPicker.h in Headers */,
-				50313461A32C9057B726BE1BF0101B6F /* ActionSheetPicker-3.0-umbrella.h in Headers */,
-				2084EC3B7D82184FC5D9F04823A61C63 /* ActionSheetPicker.h in Headers */,
-				4DD866EF4FED4F75F449B11CB733D682 /* ActionSheetStringPicker.h in Headers */,
-				0DC6AAB4BB109ECC8CED5D700A1737E7 /* DistancePickerView.h in Headers */,
-				0B8A60918E784704DB8F075C5D6E51F1 /* SWActionSheet.h in Headers */,
+				F673FEF71BB8421D56F49FD196C60FBA /* Pods-SmartTransfer-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		597010E84AB54F9FF9149AB649383F2F /* Headers */ = {
+		6180BD3F85B1B89AFB0C9BB7ED57A991 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D820E2EC7DE9FD3C78238B69C38B1066 /* MBProgressHUD-umbrella.h in Headers */,
-				E3AA0E940F360AEAF43440807ECE6C59 /* MBProgressHUD.h in Headers */,
+				7DF45D2C704E3BDD985271819E7242E3 /* MBProgressHUD-umbrella.h in Headers */,
+				44D39D20EFC7F734DDEBE1955177DEB6 /* MBProgressHUD.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5CF77FAE5D2794B9EF72140A5EC4696A /* Headers */ = {
+		9FA3F66E6EFD1B193A0849D804854F53 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				675985F4483426BD5628158A95CCE5E3 /* Pods-SmartTransfer-umbrella.h in Headers */,
+				DD6FB9A7E08E1B2BA9C28EB4F0BE7E29 /* AbstractActionSheetPicker.h in Headers */,
+				AD8BBB817E3AA32AA606D3A719A1AAE8 /* ActionSheetCustomPicker.h in Headers */,
+				6AC1D31DFA25176F6BDC6165F674ACAB /* ActionSheetCustomPickerDelegate.h in Headers */,
+				03EAF1D983A87E6BBED67E26467C77CD /* ActionSheetDatePicker.h in Headers */,
+				6241DB3A0C833FDD1A69386F3ACDE0B5 /* ActionSheetDistancePicker.h in Headers */,
+				4CBD32DFD7B2E70C9A482EC8CD96A8DB /* ActionSheetLocalePicker.h in Headers */,
+				3D969A2B49B5113213CEE507C525049A /* ActionSheetMultipleStringPicker.h in Headers */,
+				CE45BADCEAA9959232FDA819857446C9 /* ActionSheetPicker-3.0-umbrella.h in Headers */,
+				5A13FF54EBBBC26D226FDDE669271EA2 /* ActionSheetPicker.h in Headers */,
+				6CAEC381EDBB6160CF36C38FF3CC5003 /* ActionSheetStringPicker.h in Headers */,
+				2C1EE40AEC70D3FE8093FAB1288D9053 /* DistancePickerView.h in Headers */,
+				AB7B610F03A16D9FDD2FBBDD8C3F1E17 /* SWActionSheet.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B5D93500D62E604AF93A9833457C40D1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				380FFC13A3B7C259DC05054C078AD475 /* NSMutableArray+SWUtilityButtons.h in Headers */,
+				5BB37EAA67EBAEA3D20D8908B496A5FA /* SWCellScrollView.h in Headers */,
+				7C2C9505FDB8E43028516B7D3D6D6543 /* SWLongPressGestureRecognizer.h in Headers */,
+				0E36FC019856F907B5BB3B4FACEC75F4 /* SWTableViewCell-umbrella.h in Headers */,
+				162995D4D67C776CD34C07C7A50C47FE /* SWTableViewCell.h in Headers */,
+				7695B00A06C242A12C45E6461F12A905 /* SWUtilityButtonTapGestureRecognizer.h in Headers */,
+				00C4473CD06A8F770479BE89E6EDAF33 /* SWUtilityButtonView.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		254F5FEB9D13A7E1C193E0D6CA6E47E9 /* ActionSheetPicker-3.0 */ = {
+		01EE377FD59CCC35DFC17443B64E7EF1 /* MBProgressHUD */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = DDA124AD1AA075F41E7A6EBDAD164861 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */;
+			buildConfigurationList = C5030B8920CC3B87B87D5BFB4AA136C3 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
 			buildPhases = (
-				C03969B11DC9227C61828738D45A0409 /* Sources */,
-				236ACFFBA9D361A818EDA9672A65055D /* Frameworks */,
-				1B037AF431C1D31B320564C91F5E3469 /* Headers */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "ActionSheetPicker-3.0";
-			productName = "ActionSheetPicker-3.0";
-			productReference = F7338469AC55B08B4631471C560EDEE2 /* ActionSheetPicker_3_0.framework */;
-			productType = "com.apple.product-type.framework";
-		};
-		461357F82D2D97DE723C7AD5AD79E94A /* MBProgressHUD */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 58E0016CDD2AAB8D0C58098A37EA3912 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */;
-			buildPhases = (
-				4465EDEC9982EBA02C254C90AC5EC46F /* Sources */,
-				1CBCAE5876D1DD8CA2E7CEA18CB8FD20 /* Frameworks */,
-				597010E84AB54F9FF9149AB649383F2F /* Headers */,
+				F62E4DEB6FBEE802BF4436921E6EDF6D /* Sources */,
+				A995769A8E47F3C3F58D54B9598CB000 /* Frameworks */,
+				6180BD3F85B1B89AFB0C9BB7ED57A991 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -360,26 +444,61 @@
 			);
 			name = MBProgressHUD;
 			productName = MBProgressHUD;
-			productReference = 9A02279557BF50E862A9BA7BC18462D2 /* MBProgressHUD.framework */;
+			productReference = 66654CB11A39BD5586200EE365A734DC /* MBProgressHUD.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		4EF9B44ED8DEB1F54A456B19C487D108 /* Pods-SmartTransfer */ = {
+		3CAAB5E53D8ACB2A619D84EAD4BBEDF4 /* Pods-SmartTransfer */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F257667A639C0EFB75BE2D55A609D48D /* Build configuration list for PBXNativeTarget "Pods-SmartTransfer" */;
+			buildConfigurationList = 9142D69A2FB670CC1EB268875BE0914F /* Build configuration list for PBXNativeTarget "Pods-SmartTransfer" */;
 			buildPhases = (
-				E8467DAAB1BA12C88E210DE205DADFAA /* Sources */,
-				4BF36A60C1E7DC809A70DC6DE4F1AF4B /* Frameworks */,
-				5CF77FAE5D2794B9EF72140A5EC4696A /* Headers */,
+				AB0DD70BD2BB442E51B0F850014FCA28 /* Sources */,
+				01E15869EBF4EAB97734DC2F334F70D7 /* Frameworks */,
+				58C8030AD88D57BF6E5CA2D2E7A62015 /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				8228E15BB476B3617F8C34455BBE9186 /* PBXTargetDependency */,
-				869271DA61CCBFA5A6F74A77C8C99210 /* PBXTargetDependency */,
+				9435A56EA3C57078F2F1C297A64A0A4E /* PBXTargetDependency */,
+				88A1CE68369E7E8FC36E0ED8305A64FD /* PBXTargetDependency */,
+				BAEB14E3B3993F7987494D38AD7A49A8 /* PBXTargetDependency */,
 			);
 			name = "Pods-SmartTransfer";
 			productName = "Pods-SmartTransfer";
-			productReference = 101324015CF0482AA9EA41EC4E59BDF2 /* Pods_SmartTransfer.framework */;
+			productReference = 256622F1F7D375F405D5D7099EE2CEC2 /* Pods_SmartTransfer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B5539F4C229EB0A474296E0B36C5EEAE /* SWTableViewCell */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 619ABD8A3BE969F372ECC5BFAC0D2D96 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */;
+			buildPhases = (
+				5BFF53A04FA3AE7CA1A87B713B26724B /* Sources */,
+				542BB1CB1DB0BF48A3CCA9B1C780F6EA /* Frameworks */,
+				B5D93500D62E604AF93A9833457C40D1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SWTableViewCell;
+			productName = SWTableViewCell;
+			productReference = C5336B67B9FE7B734B601F8FC78015F7 /* SWTableViewCell.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E15E29C42F06CD04767E0910FB2EC0A1 /* ActionSheetPicker-3.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 98B9498AF5917DD8EBA3AF473CE90FA0 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */;
+			buildPhases = (
+				1A1259E7204760119A5E0A1E5872467F /* Sources */,
+				A663C3010C8E7453AAE463DF164DC07C /* Frameworks */,
+				9FA3F66E6EFD1B193A0849D804854F53 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ActionSheetPicker-3.0";
+			productName = "ActionSheetPicker-3.0";
+			productReference = 2515C621AA83753BE37C5ED4FD71F3FC /* ActionSheetPicker_3_0.framework */;
 			productType = "com.apple.product-type.framework";
 		};
 /* End PBXNativeTarget section */
@@ -403,95 +522,87 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				254F5FEB9D13A7E1C193E0D6CA6E47E9 /* ActionSheetPicker-3.0 */,
-				461357F82D2D97DE723C7AD5AD79E94A /* MBProgressHUD */,
-				4EF9B44ED8DEB1F54A456B19C487D108 /* Pods-SmartTransfer */,
+				E15E29C42F06CD04767E0910FB2EC0A1 /* ActionSheetPicker-3.0 */,
+				01EE377FD59CCC35DFC17443B64E7EF1 /* MBProgressHUD */,
+				3CAAB5E53D8ACB2A619D84EAD4BBEDF4 /* Pods-SmartTransfer */,
+				B5539F4C229EB0A474296E0B36C5EEAE /* SWTableViewCell */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4465EDEC9982EBA02C254C90AC5EC46F /* Sources */ = {
+		1A1259E7204760119A5E0A1E5872467F /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				50B1836527735056EEEE40CFF846E0BE /* MBProgressHUD-dummy.m in Sources */,
-				D10B903F03DB5E238FC41A22F203142D /* MBProgressHUD.m in Sources */,
+				DE2F018C5D6695E65F0F0F778924E379 /* AbstractActionSheetPicker.m in Sources */,
+				FA2BA69EBA8642368B08AB72385AECA2 /* ActionSheetCustomPicker.m in Sources */,
+				96B1CEFD82D9D7B311C377EA342F1782 /* ActionSheetDatePicker.m in Sources */,
+				EEA6E022D1739ED2D1E6E8BD7091C6E1 /* ActionSheetDistancePicker.m in Sources */,
+				DCE3FA2385DB597322DEF17335E57399 /* ActionSheetLocalePicker.m in Sources */,
+				63799B97C6CD63205E77BEEF76A7D5FE /* ActionSheetMultipleStringPicker.m in Sources */,
+				50C7917F38AB3C4D2AB879D6F2DE3FA7 /* ActionSheetPicker-3.0-dummy.m in Sources */,
+				D9A525875117F09BEF29A7D3D2AD5A7B /* ActionSheetStringPicker.m in Sources */,
+				AD99A79D500A6CFA384684AA5269D15C /* DistancePickerView.m in Sources */,
+				5EEA2BFE71DA13908EB384F8046A51C4 /* SWActionSheet.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		C03969B11DC9227C61828738D45A0409 /* Sources */ = {
+		5BFF53A04FA3AE7CA1A87B713B26724B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6771FAC3AD86E6A54ADB7A2EE895A061 /* AbstractActionSheetPicker.m in Sources */,
-				B44E3383E2C0F0D021335E07EFB7615A /* ActionSheetCustomPicker.m in Sources */,
-				F8B8A5FADD031AE7F75CFD5CE1C61174 /* ActionSheetDatePicker.m in Sources */,
-				A8E118950B2F2BAC09E30A605D3FB961 /* ActionSheetDistancePicker.m in Sources */,
-				0C3A35F317A058D0C392AF7BFDFFD526 /* ActionSheetLocalePicker.m in Sources */,
-				195B75F302F0861668A64C543BF78610 /* ActionSheetMultipleStringPicker.m in Sources */,
-				83B2E6A4AC68F3CA4E3383F6672D7EA9 /* ActionSheetPicker-3.0-dummy.m in Sources */,
-				7DA42BCDC6A68B64AF494A1219D36055 /* ActionSheetStringPicker.m in Sources */,
-				1C3B3CF27C991F527379F05398E902BA /* DistancePickerView.m in Sources */,
-				6ECB5387EFC66FC5CA734E8752BF19EC /* SWActionSheet.m in Sources */,
+				774C7E4C97406D6C6D828A09D260C4F7 /* NSMutableArray+SWUtilityButtons.m in Sources */,
+				430D39288513FF5FF54ADF68DF9730F7 /* SWCellScrollView.m in Sources */,
+				7846FF3DEDCF0EF8620140DB770E4E98 /* SWLongPressGestureRecognizer.m in Sources */,
+				30168605952B2A213F3FEECC2D3DC6DC /* SWTableViewCell-dummy.m in Sources */,
+				8FE9310F43376F563114BF2E7382877E /* SWTableViewCell.m in Sources */,
+				F3DE6EC4511BB48FC82DB1FBE52339B3 /* SWUtilityButtonTapGestureRecognizer.m in Sources */,
+				78D820B19128E35B217C63DB7003596C /* SWUtilityButtonView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E8467DAAB1BA12C88E210DE205DADFAA /* Sources */ = {
+		AB0DD70BD2BB442E51B0F850014FCA28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA30F2726EC02F6106864E382CFC3587 /* Pods-SmartTransfer-dummy.m in Sources */,
+				9041FD52AE72EA6F5C85A0EA4DF494F5 /* Pods-SmartTransfer-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F62E4DEB6FBEE802BF4436921E6EDF6D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CC25F9F92AC20157513EDD215BE9D08E /* MBProgressHUD-dummy.m in Sources */,
+				B77EBE201D94E464D8749C72563AF17E /* MBProgressHUD.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		8228E15BB476B3617F8C34455BBE9186 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "ActionSheetPicker-3.0";
-			target = 254F5FEB9D13A7E1C193E0D6CA6E47E9 /* ActionSheetPicker-3.0 */;
-			targetProxy = 63C86F33BC73C04A90185614E4C4D735 /* PBXContainerItemProxy */;
-		};
-		869271DA61CCBFA5A6F74A77C8C99210 /* PBXTargetDependency */ = {
+		88A1CE68369E7E8FC36E0ED8305A64FD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = MBProgressHUD;
-			target = 461357F82D2D97DE723C7AD5AD79E94A /* MBProgressHUD */;
-			targetProxy = D335143385999EA2C45EAABE3C547BE2 /* PBXContainerItemProxy */;
+			target = 01EE377FD59CCC35DFC17443B64E7EF1 /* MBProgressHUD */;
+			targetProxy = B8869649C87F6C8B73EDD99F7A529D86 /* PBXContainerItemProxy */;
+		};
+		9435A56EA3C57078F2F1C297A64A0A4E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ActionSheetPicker-3.0";
+			target = E15E29C42F06CD04767E0910FB2EC0A1 /* ActionSheetPicker-3.0 */;
+			targetProxy = 3FCCB567D9A9CFD0E53717C1CF3F6ED2 /* PBXContainerItemProxy */;
+		};
+		BAEB14E3B3993F7987494D38AD7A49A8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SWTableViewCell;
+			target = B5539F4C229EB0A474296E0B36C5EEAE /* SWTableViewCell */;
+			targetProxy = BBF43A4A5F48DD9A9783643C126B2ACE /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		03771DAD5ECAF0BEC3186FE6F9BB5410 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7860F09BABBCAC27D23E6149B64C7A67 /* Pods-SmartTransfer.release.xcconfig */;
-			buildSettings = {
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SmartTransfer/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SmartTransfer/Pods-SmartTransfer.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SmartTransfer;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		10DE1947DAC0ED28F6C0A9F9BD75D546 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -526,27 +637,25 @@
 			};
 			name = Release;
 		};
-		2AB80CC688F325A4C2050F16E1D774CE /* Debug */ = {
+		1205CE74FCE534B04CC63D428ADA7E38 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9119D4C737A4E7CFEB27CF0E03C3BED0 /* Pods-SmartTransfer.debug.xcconfig */;
+			baseConfigurationReference = D7E5A3EF55F153A23237390788EE20F4 /* MBProgressHUD-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 1;
+				CURRENT_PROJECT_VERSION = 0.9.1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_COMPATIBILITY_VERSION = 0.9.1;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				INFOPLIST_FILE = "Target Support Files/Pods-SmartTransfer/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/Pods-SmartTransfer/Pods-SmartTransfer.modulemap";
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_NAME = Pods_SmartTransfer;
+				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -555,32 +664,32 @@
 			};
 			name = Debug;
 		};
-		38A8B63735A26631ACA94C5CF8E722E1 /* Debug */ = {
+		14BF2D2BC823CA988B86CF9B1106EADF /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 436E031F21E6C8A18841BB40C32CD6CD /* ActionSheetPicker-3.0-Private.xcconfig */;
+			baseConfigurationReference = D7E5A3EF55F153A23237390788EE20F4 /* MBProgressHUD-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 2.0.1;
+				CURRENT_PROJECT_VERSION = 0.9.1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 2;
+				DYLIB_COMPATIBILITY_VERSION = 0.9.1;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
-				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = ActionSheetPicker_3_0;
+				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MBProgressHUD;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Debug;
+			name = Release;
 		};
 		552D02D5BA751AC2E8790D2811D496CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -621,9 +730,63 @@
 			};
 			name = Debug;
 		};
-		7BB1F57C9E136D4EA59430634929B16D /* Release */ = {
+		7BFFCDB93806CBEC69AEDA8CF5CE5F84 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 436E031F21E6C8A18841BB40C32CD6CD /* ActionSheetPicker-3.0-Private.xcconfig */;
+			baseConfigurationReference = 0E72664C465EEF92E0AFC41A36A1A0F6 /* SWTableViewCell-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.7;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.7;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B78427834422455AD9EF3DCE26C3FA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0E72664C465EEF92E0AFC41A36A1A0F6 /* SWTableViewCell-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 0.3.7;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 0.3.7;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SWTableViewCell/SWTableViewCell-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SWTableViewCell/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SWTableViewCell/SWTableViewCell.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SWTableViewCell;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		93BACCE09870590780EA15198D3C46A0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC83430B00514054CD0C899F71768A76 /* ActionSheetPicker-3.0-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				CURRENT_PROJECT_VERSION = 2.0.1;
@@ -648,25 +811,56 @@
 			};
 			name = Release;
 		};
-		84889947F012FAD0A73628D1A395328A /* Debug */ = {
+		97E435BE8D63A8CA24014E39053210A4 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E3FFB0CDA4C88C9F5CA7EB897DE6B1D /* MBProgressHUD-Private.xcconfig */;
+			baseConfigurationReference = 4884B1D1BA084FC0D8A4185FBCFD3E91 /* Pods-SmartTransfer.release.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.9.1;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.9.1;
-				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartTransfer/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartTransfer/Pods-SmartTransfer.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SmartTransfer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9D4252E039C0FB525578C820B92393F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80E22257B99739FBF352DE3289C9BFA7 /* Pods-SmartTransfer.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SmartTransfer/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-SmartTransfer/Pods-SmartTransfer.modulemap";
 				MTL_ENABLE_DEBUG_INFO = YES;
-				PRODUCT_NAME = MBProgressHUD;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_SmartTransfer;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -675,32 +869,32 @@
 			};
 			name = Debug;
 		};
-		E9A2BD88B0196BA9F15782DA9B30336D /* Release */ = {
+		FB9BA7C4EB405647172016A72E031870 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 5E3FFB0CDA4C88C9F5CA7EB897DE6B1D /* MBProgressHUD-Private.xcconfig */;
+			baseConfigurationReference = BC83430B00514054CD0C899F71768A76 /* ActionSheetPicker-3.0-Private.xcconfig */;
 			buildSettings = {
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
-				CURRENT_PROJECT_VERSION = 0.9.1;
+				CURRENT_PROJECT_VERSION = 2.0.1;
 				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 0.9.1;
+				DYLIB_COMPATIBILITY_VERSION = 2;
 				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
-				GCC_PREFIX_HEADER = "Target Support Files/MBProgressHUD/MBProgressHUD-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/MBProgressHUD/Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ActionSheetPicker-3.0/Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/MBProgressHUD/MBProgressHUD.modulemap";
-				MTL_ENABLE_DEBUG_INFO = NO;
-				PRODUCT_NAME = MBProgressHUD;
+				MODULEMAP_FILE = "Target Support Files/ActionSheetPicker-3.0/ActionSheetPicker-3.0.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ActionSheetPicker_3_0;
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
-			name = Release;
+			name = Debug;
 		};
 /* End XCBuildConfiguration section */
 
@@ -714,29 +908,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		58E0016CDD2AAB8D0C58098A37EA3912 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+		619ABD8A3BE969F372ECC5BFAC0D2D96 /* Build configuration list for PBXNativeTarget "SWTableViewCell" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				84889947F012FAD0A73628D1A395328A /* Debug */,
-				E9A2BD88B0196BA9F15782DA9B30336D /* Release */,
+				7BFFCDB93806CBEC69AEDA8CF5CE5F84 /* Debug */,
+				8B78427834422455AD9EF3DCE26C3FA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		DDA124AD1AA075F41E7A6EBDAD164861 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */ = {
+		9142D69A2FB670CC1EB268875BE0914F /* Build configuration list for PBXNativeTarget "Pods-SmartTransfer" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				38A8B63735A26631ACA94C5CF8E722E1 /* Debug */,
-				7BB1F57C9E136D4EA59430634929B16D /* Release */,
+				9D4252E039C0FB525578C820B92393F9 /* Debug */,
+				97E435BE8D63A8CA24014E39053210A4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F257667A639C0EFB75BE2D55A609D48D /* Build configuration list for PBXNativeTarget "Pods-SmartTransfer" */ = {
+		98B9498AF5917DD8EBA3AF473CE90FA0 /* Build configuration list for PBXNativeTarget "ActionSheetPicker-3.0" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2AB80CC688F325A4C2050F16E1D774CE /* Debug */,
-				03771DAD5ECAF0BEC3186FE6F9BB5410 /* Release */,
+				FB9BA7C4EB405647172016A72E031870 /* Debug */,
+				93BACCE09870590780EA15198D3C46A0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C5030B8920CC3B87B87D5BFB4AA136C3 /* Build configuration list for PBXNativeTarget "MBProgressHUD" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1205CE74FCE534B04CC63D428ADA7E38 /* Debug */,
+				14BF2D2BC823CA988B86CF9B1106EADF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

@@ -14,9 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "F2ECCB3C9AFBE239A14F4070"
-               BuildableName = "ActionSheetPicker_3_0.framework"
-               BlueprintName = "ActionSheetPicker-3.0"
+               BlueprintIdentifier = "8DAB99578780651764C3A77B"
+               BuildableName = "SWTableViewCell.framework"
+               BlueprintName = "SWTableViewCell"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

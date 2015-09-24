@@ -9,6 +9,7 @@
 import UIKit
 import Parse
 import MBProgressHUD
+import SWTableViewCell
 
 class LogViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
 
@@ -39,6 +40,8 @@ class LogViewController: UIViewController, UITableViewDataSource, UITableViewDel
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        
         
         // Do any additional setup after loading the view.
         tableView.delegate = self
@@ -89,6 +92,8 @@ class LogViewController: UIViewController, UITableViewDataSource, UITableViewDel
                 
                 // get payment detaisl into arrays
                 var count = 0
+                
+                self.arrFrom = []
                 while count < payments.count {
                     var status = payments[count]["Status"] as! String
                     if status == "Deposited" || status == "Pending" {
@@ -169,14 +174,24 @@ class LogViewController: UIViewController, UITableViewDataSource, UITableViewDel
     
     func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         println("rows: \(arrFrom.count)")
-        println(arrFrom)
+        println(arrFrom.count)
         
         return arrFrom.count
         
     }
     
     func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! UITableViewCell
+        var transType = ""
+        
+        var cell:TLogTableViewCell
+        
+        if (arrStatus[indexPath.row] == "Pending") {
+            cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! TLogTableViewCell
+        } else {
+            cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! TLogTableViewCell
+        }
+//        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! TLogTableViewCell
+        
         
         let row = indexPath.row
         
@@ -192,22 +207,32 @@ class LogViewController: UIViewController, UITableViewDataSource, UITableViewDel
         }
         
         if arrStatus[row] == "Pending" {
-            cell.textLabel?.textColor = UIColor.redColor()
+            cell.txtStatus.backgroundColor = UIColor.redColor()
+        } else {
+            cell.txtStatus.backgroundColor = UIColor.greenColor()
         }
         
         if arrFrom[row] == username || arrFrom[row] == mobile {
-            cell.textLabel?.text = "Sent to \(arrToFirstName[row]) \(arrToLastName[row]) " + arrCurrency[row] + String(format: "%.2f", arrAmount[row])
+            transType = "Sent "
+            cell.lblName.text = "\(arrToFirstName[row]) \(arrToLastName[row]) "
+                
+            cell.lblCurrency.text = "\(arrCurrency[row])"
+            cell.lblAmount.text = String(format: "%.2f", arrAmount[row])
 
         }
         else {
-            cell.textLabel?.text = "Received from \(fullname) " + arrCurrency[row] + String(format: "%.2f", arrAmount[row])
+//            cell.textLabel?.text = "Received from \(fullname) " + arrCurrency[row] + String(format: "%.2f", arrAmount[row])
+            transType = "Received "
+            cell.lblName.text = "\(fullname)"
+            cell.lblCurrency.text = "\(arrCurrency[row])"
+            cell.lblAmount.text = String(format: "%.2f", arrAmount[row])
         }
         
         
         let formatter = NSDateFormatter()
         formatter.dateStyle = .LongStyle
         formatter.timeStyle = .LongStyle
-        cell.detailTextLabel?.text = formatter.stringFromDate(arrCreated[row])
+        cell.lblType.text = transType + formatter.stringFromDate(arrCreated[row])
         
         println("From: \(arrFrom[row])")
         return cell
