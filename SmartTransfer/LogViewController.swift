@@ -11,7 +11,7 @@ import Parse
 import MBProgressHUD
 import SWTableViewCell
 
-class LogViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
+class LogViewController: UIViewController, UITableViewDataSource, UITableViewDelegate, SWTableViewCellDelegate  {
 
     @IBOutlet weak var tableView: UITableView!
     var payments: [PFObject] = []
@@ -192,6 +192,18 @@ class LogViewController: UIViewController, UITableViewDataSource, UITableViewDel
         }
 //        let cell = tableView.dequeueReusableCellWithIdentifier("reuseIdentifier", forIndexPath: indexPath) as! TLogTableViewCell
         
+        cell.delegate = self
+        
+        cell.rightUtilityButtons = []
+        
+        var btn = UIButton()
+        btn.setTitle("Delete", forState: .Normal)
+        btn.setTitleColor(UIColor.whiteColor(), forState: .Normal)
+        btn.backgroundColor = UIColor.redColor()
+        
+        cell.rightUtilityButtons.append(btn)
+        
+//        cell.
         
         let row = indexPath.row
         
@@ -242,6 +254,30 @@ class LogViewController: UIViewController, UITableViewDataSource, UITableViewDel
         tableView.deselectRowAtIndexPath(indexPath, animated: true)
         
         
+    }
+    
+    
+    func swipeableTableViewCell(cell: SWTableViewCell!, didTriggerRightUtilityButtonWithIndex index: Int) {
+        println(index)
+        println(self.tableView.indexPathForCell(cell)?.row)
+        
+        
+        
+        self.tableView.beginUpdates()
+        
+        if let indexPath = self.tableView.indexPathForCell(cell) {
+            arrFrom.removeAtIndex(indexPath.row)
+            
+            self.tableView.deleteRowsAtIndexPaths([indexPath], withRowAnimation: UITableViewRowAnimation.Left)
+        }
+        
+        
+        self.tableView.endUpdates()
+        
+    }
+    
+    func swipeableTableViewCellShouldHideUtilityButtonsOnSwipe(cell: SWTableViewCell!) -> Bool {
+        return true
     }
 
     

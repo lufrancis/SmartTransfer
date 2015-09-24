@@ -7,8 +7,9 @@
 //
 
 import UIKit
+import SWTableViewCell
 
-class TLogTableViewCell: UITableViewCell {
+class TLogTableViewCell: SWTableViewCell {
 
     @IBOutlet weak var txtStatus: UITextField!
     @IBOutlet weak var lblName: UILabel!
